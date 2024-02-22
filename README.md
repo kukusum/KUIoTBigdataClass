@@ -10,6 +10,8 @@ C/C++, Database, Arduino, Raspberry Pi, IoT
 - 우분투 한글설정
 - vscode 설치
 - github 스테이징과 커밋에대한 설명.
+- mySQL 설치및 입력 따라해보기.
+- 에러가 많이나서 포기함.
 - ...
 ```shell
 sudo gpt-get install git
