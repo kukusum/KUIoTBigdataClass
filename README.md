@@ -1,6 +1,6 @@
 # KUIoTBigdataClass
 C/C++, Database, arduino, raspberrypi, IoT
-
+ak
 ---
 ## 2024-02-22
 ---
