@@ -1,15 +1,11 @@
-all: circle celsius2fahr
+TARGET = star star2 star3 stars3
 
-circle: circle.c
-	cc -o circle circle.c
-	echo "circle is created"
+all: $(TARGET)
 
-dircle.o: circle.c
-	cc -c circle.c
-	echo "circle.o is created"
-
-celsius2fahr: celsius2fahr.c
-	cc -o celsius2fahr celsius2fahr.c
+star: $@
+star2: $@
+star3: $@
+stars3: $@
 
 clean:
-	rm -f 
+	rm -f $(TARGET)
