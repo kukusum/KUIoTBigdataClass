@@ -55,8 +55,22 @@ sudo ufw allow mysql
         - full join 은 전체열이 다나온다.
         - inner join 은 null 값이 다 사라진다.
         - A에만 null 값이 포함되지 않게 하는경우는 left outer join.
-        - B에만 null 값을 포함하지 않게 하려면 right outer join.
-        -
+        - B에만 null 값을 포함하지 않게 하려면 right outer join
+    - 코딩 작성 예시
+    - 프로그래머스 연습 (과일로 만든 아이스크림 고르기)
+    - SELECT FIRST_HALF.FLAVOR
+        FROM FIRST_HALF
+        LEFT JOIN ICECREAM_INFO ON FIRST_HALF.FLAVOR = ICECREAM_INFO.FLAVOR
+        WHERE FIRST_HALF.TOTAL_ORDER > 3000 AND ICECREAM_INFO.INGREDIENT_TYPE = 'FRUIT_BASED'
+        ORDER BY FIRST_HALF.TOTAL_ORDER DESC;
+
+    - SELECT FIRST_HALF.FLAVOR
+        FROM FIRST_HALF
+        JOIN ICECREAM_INFO ON FIRST_HALF.FLAVOR = ICECREAM_INFO.FLAVOR
+        WHERE FIRST_HALF.TOTAL_ORDER > 3000 
+        AND ICECREAM_INFO.INGREDIENT_TYPE = 'fruit_based'
+        ORDER BY FIRST_HALF.TOTAL_ORDER DESC;
+
 - ...
 ```shell
 sudo gpt-get install git
