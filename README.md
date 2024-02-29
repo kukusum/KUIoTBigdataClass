@@ -21,9 +21,19 @@ C/C++, Database, Arduino, Raspberry Pi, IoT
     - 우분투 DBMS에 외부 IP접근 가능한 USER 생성.
     - 우분투 방화벽에 전체포트 열기.(개별포트 가능하지만 나중에 추가학습예정)
     - 우분투 DBMS에 데이터 저장하고 우분투에서 데이터 확인가능.
-- 2024-02-29
+- ## 2024-02-29
+
+---
+
+- 빌드 과정 설명
+    - make cmake for linux
+    - 전처리, 어셈블리, 바이너리, 링크
+    - make 실습해보기
+    - 기본문법, 여러개명령어 등록, 연속실행, 생략가능명령어
+
     touch, make, make clean 명령어를 활용하여 실행하는방법 따라해보기
     github와 vscode 스테이징과 커밋하는방법 익히기
+    
 - ...
 ```shell
 sudo gpt-get install git
