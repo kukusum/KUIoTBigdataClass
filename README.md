@@ -71,6 +71,31 @@ sudo ufw allow mysql
         AND ICECREAM_INFO.INGREDIENT_TYPE = 'fruit_based'
         ORDER BY FIRST_HALF.TOTAL_ORDER DESC;
 
+    - mysql 숫자함수, 문자함수, 날짜 및 시간함수 활용해서 쿼리문작성해보기.
+
+        - 숫자 함수:
+            - ABS(): 절대값을 반환합니다.
+            - ROUND(): 반올림한 값을 반환합니다.
+            - CEILING(): 올림한 값을 반환합니다.
+            - FLOOR(): 내림한 값을 반환합니다.
+            - RAND(): 0과 1 사이의 무작위 숫자를 반환합니다.
+        
+        - 문자열 함수:
+            - CONCAT(): 문자열을 연결합니다.
+            - LENGTH(): 문자열의 길이를 반환합니다.
+            - SUBSTRING(): 문자열의 일부분을 반환합니다.
+            - UPPER(): 문자열을 대문자로 변환합니다.
+            - LOWER(): 문자열을 소문자로 변환합니다.
+            - TRIM(): 문자열의 앞뒤 공백을 제거합니다.
+
+        - 날짜 및 시간 함수:
+            - NOW(): 현재 날짜와 시간을 반환합니다.
+            - DATE_FORMAT(): 날짜를 원하는 형식으로 변환합니다.
+            - DATE_ADD(): 날짜에 일정 기간을 추가합니다.
+            - DATEDIFF(): 두 날짜 간의 일 수 차이를 계산합니다.
+            - DAYOFWEEK(): 주어진 날짜의 요일을 반환합니다.
+
+            - 프로그래머스 C 언어: 3문제 풀기. 프로그래머스 SQL 언어: ‘인기 있는 아이스크림’ ‘3월에 태어난 여성 회원 목록’ ‘조건에 맞는 도서 리스트’ ‘흉부 외과 또는 일반외과’
 - ...
 ```shell
 sudo gpt-get install git
