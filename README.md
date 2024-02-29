@@ -11,7 +11,7 @@ C/C++, Database, Arduino, Raspberry Pi, IoT
 - vscode 설치
 - github 스테이징과 커밋에대한 설명.
 - mySQL 설치및 입력 따라해보기.
-- 에러가 많이나서 포기함.
+- 
 - 2장 데이터베이스 모델 설명과 진행.
 - 윈도우 DBMS에 우분투에서 접근.
     - 윈도우 DBMS에 외부 IP접근 가능한 USER 생성. 
