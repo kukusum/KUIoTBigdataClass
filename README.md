@@ -25,6 +25,14 @@ C/C++, Database, Arduino, Raspberry Pi, IoT
 
 ---
 
+set global validate_password.policy=LOW;
+create user 'madang'@'%' identified by 'madang';
+grant all privileges on *.* to 'madang'@'%';
+flush privileges;
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo ufw allow mysql
+
+
 - 빌드 과정 설명
     - make cmake for linux
     - 전처리, 어셈블리, 바이너리, 링크
