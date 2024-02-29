@@ -33,7 +33,9 @@ C/C++, Database, Arduino, Raspberry Pi, IoT
 
     touch, make, make clean 명령어를 활용하여 실행하는방법 따라해보기
     github와 vscode 스테이징과 커밋하는방법 익히기
-    
+
+    - 
+
 - ...
 ```shell
 sudo gpt-get install git
