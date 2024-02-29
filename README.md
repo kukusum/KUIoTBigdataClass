@@ -43,7 +43,20 @@ sudo ufw allow mysql
     github와 vscode 스테이징과 커밋하는방법 익히기
     - 작성
     - mysql 이용해서 order customer 검색순서 변경해보기 
-
+    - mysql에서 join에 대한 정의 및 설명
+        - A라는 테이블과 B라는 테이블이 연결되어있는것 Fk ?(?)
+        - join 은 테이블과 테이블의 내용을 합쳐 하나의 컬럼을 만듬.
+        - 동등조인?
+        - 예를들면, from A, B where PK = FK full join
+        - defualt는 outer join, inner join (아닐수도있음.)
+        - 왼쪽에 붙이고싶으면 left join.
+        - 오른쪽에 붙이고싶으면 right join.
+    - null에 대한 설명
+        - full join 은 전체열이 다나온다.
+        - inner join 은 null 값이 다 사라진다.
+        - A에만 null 값이 포함되지 않게 하는경우는 left outer join.
+        - B에만 null 값을 포함하지 않게 하려면 right outer join.
+        -
 - ...
 ```shell
 sudo gpt-get install git

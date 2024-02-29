@@ -27,3 +27,5 @@ select Customer.name, Book.bookname, Book.price from Customer, Orders, Book wher
 
 select Customer.name, Orders.saleprice from Customer left join Orders on Customer.custid=Orders.custid;
 select Customer.name, Orders.saleprice from Customer left outer join Orders on Customer.custid=Orders.custid;
+
+
