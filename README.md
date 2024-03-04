@@ -113,6 +113,21 @@ sudo ufw allow mysql
     -int nums[5] = {0};
         - nums: 0 0 0 0 0
 - 배열초기화에대해서 좀더 알아보기.
+    - . 현재디렉토리
+    - .. 상위디렉토리
+    - | 의미?
+- 라이브러리함수에대한 설명과 사용법
+    - printf, scanf, srand, rand, time 등등
+    - rand를 활용해서 주사위랜덤돌리기
+    - time을 활용해서 시간에따른 랜덤성 부여하기
+- 중첩 for 문 (nested for loop)
+    - nested for loop 활용하기
+    - selectionSorting, bubbleSorting 설명듣고 이해하기
+    - 
+
+    
+- 
+
 
 ```shell
 sudo gpt-get install git
