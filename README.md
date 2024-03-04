@@ -96,7 +96,24 @@ sudo ufw allow mysql
             - DAYOFWEEK(): 주어진 날짜의 요일을 반환합니다.
 
             - 프로그래머스 C 언어: 3문제 풀기. 프로그래머스 SQL 언어: ‘인기 있는 아이스크림’ ‘3월에 태어난 여성 회원 목록’ ‘조건에 맞는 도서 리스트’ ‘흉부 외과 또는 일반외과’
-- ...
+## 2024-03-04
+---
+- 배열 초기화(initialization)
+    - int len = 100; //초기화
+    - int len;
+    - len = 100;
+    - int nums[5] = {1, 2, 3, 4, 5}; //초기화리스트
+        - int nums[5];
+        - nums[0]=1;
+        - nums[1];
+        - nums[2];
+        - nums[3];
+        - nums[4];
+        - nums[5];
+    -int nums[5] = {0};
+        - nums: 0 0 0 0 0
+- 배열초기화에대해서 좀더 알아보기.
+
 ```shell
 sudo gpt-get install git
 git clone https://github.com/kukusum/KUIoTBigdataClass.git
