@@ -488,7 +488,7 @@ tmpnam(): 임시 파일의 이름을 생성합니다.
 - etc...
     - call-by-value, call-by-referance (??) 각각언어마다 다르다.
     - int sumArray(const int*pArr, int size) *pArr은 포인터이다..
-    - 
+    - ...
 
 
 ---
