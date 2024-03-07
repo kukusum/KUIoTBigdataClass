@@ -4,39 +4,37 @@ C/C++, Database, Arduino, Raspberry Pi, IoT
 ---
 ## 2024-02-22
 ---
-[note/20240222.md]https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240222.md
+[note/20240222.md](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240222.md)
 ---
 
 --- 
 ## 2024-02-29
 ---
-[note/20240229.md]https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240229.md
+[note/20240229.md](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240229.md)
 ---
 
 ---
 ## 2024-03-04
 ---
-[note/20240304.md]https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240304.md
+[note/20240304.md]https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240304.md)
 ---
 
 ---
 ## 2024-03-05
 ---
-[note/20240305.md]https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240305.md
+[note/20240305.md](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240305.md)
 ---
 
 ---
 ## 2024-03-06
 ---
-20240306
-<% } -%> <% if (https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240306.md) { -%>
+[20240306](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240306.md)
 ---
 
 ---
 ## 2024-03-07
 ---
-[20240307]
-<% } -%> <% if (https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240307.md) { -%>
+[20240307](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240307.md)
 ---
 
 ---
