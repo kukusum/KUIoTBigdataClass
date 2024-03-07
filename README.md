@@ -536,7 +536,7 @@ tmpnam(): 임시 파일의 이름을 생성합니다.
 ---
 ## 2024-03-07
 ---
-note/20240307.md
+[note/20240307.md](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240307.md)
 ---
 
 ---
