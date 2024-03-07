@@ -63,3 +63,15 @@ select name, address from Customer cs where exists (select * from Orders od wher
 
 
 //delete from Book where bookid= 99999;
+
+create table Mybook(bookid int primary key, price int);
+insert into Mybook(bookid, price) value (1, 10000);
+insert into Mybook(bookid, price) value (2, 20000);
+insert into Mybook(bookid, price) value (3, null);
+
+select * from Mybook;
+
+select price + 100 from Mybook where bookid=3;
+select sum(price), avg(price), count(*), count(price), count(bookid) from Mybook;
+
+select name 이름, ifnull(phone, '연락처없음')전화번호 from Customer;
