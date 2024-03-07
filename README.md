@@ -34,7 +34,8 @@ C/C++, Database, Arduino, Raspberry Pi, IoT
 ---
 ## 2024-03-07
 ---
-[note/20240307.md](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240307.md)
+[note/20240307.md]
+<% } -%> <% if (https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240307.md) { -%>
 ---
 
 ---
