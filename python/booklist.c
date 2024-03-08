@@ -2,7 +2,6 @@
 #include <mysql.h>
 
 
-
 int main()
 {
     printf ("input list");
