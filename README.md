@@ -1,7 +1,11 @@
 # KUIoTBigdataClass
 C/C++, Database, Arduino, Raspberry Pi, IoT
 ---
+---
+## 2024-03-08
 
+[20240308](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240308.md)
+---
 ---
 ## 2024-03-07
 
