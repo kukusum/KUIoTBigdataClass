@@ -2,9 +2,14 @@
 C/C++, Database, Arduino, Raspberry Pi, IoT
 ---
 ---
+## 2024-03-12
+
+[Micro Controller Unit]()
+---
+---
 ## 2024-03-11
 
-[20240311]()
+[20240311](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240311.md)
 ---
 ---
 ## 2024-03-08
