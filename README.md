@@ -4,7 +4,7 @@ C/C++, Database, Arduino, Raspberry Pi, IoT
 ---
 ## 2024-03-12
 
-[Micro Controller Unit]()
+[Micro Controller Unit](https://github.com/kukusum/KUIoTBigdataClass/blob/main/note/20240312.md)
 ---
 ---
 ## 2024-03-11
