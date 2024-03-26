@@ -57,7 +57,10 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "detail": "컴파일러: /usr/bin/g++"
         },
         {
@@ -77,10 +80,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "group": "build",
             "detail": "컴파일러: /usr/bin/gcc"
         }
     ],
