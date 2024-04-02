@@ -6,9 +6,22 @@ using namespace std;
 class Circle
 {
     public :
-        int radius;             // 멤버변수...
-        double getArea (void);      // 멤버함수...
+    int radius;             // 멤버변수...
+    Circle();
+    Circld(int r);
+    double getArea();      // 멤버함수...
 };
+
+Circle::Circle() : Circle(1) 
+{
+    // 
+}
+
+Circle::Circle (int r)
+{
+    radius = r;
+    cout << "반지름 " << radius << "원 생성" << endl;
+}
 
 // 클래스 구현...
 double Circle::getArea(void)
