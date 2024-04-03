@@ -4,17 +4,20 @@ using namespace std;
 // class 선언
 class TV
 {
+//멤버접근지정자
 protected:
-//
+    //
 private:
-//
+    //
 public:                 // ???
     //멤버변수
     bool tvpower;       // 초기화 false 기본값...
     int channel;        //
     int volume;         //
-    TV();               // 기본생성자
-    TV(int ch);         // 채널값을 갖는 생성자
+    // 기본생성자
+    TV();               
+    // 채널(인자)값을 갖는 생성자
+    TV(int ch);         
 
     //멤버함수
     void powerOn();
