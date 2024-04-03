@@ -1,6 +1,25 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include <sstream>
+
 using namespace std;
+
+// 사용자함수...
+vector<string> split(string str, char Delimiter)
+{
+    istringstream iss(str);             // istringstream에 str을 담는다.
+    string buffer;                      // 구분자를 기준으로 절삭된 문자열이 담겨지는 버퍼
+ 
+    vector<string> result;
+ 
+    // istringstream은 istream을 상속받으므로 getline을 사용할 수 있다.
+    while (getline(iss, buffer, Delimiter)) {
+        result.push_back(buffer);               // 절삭된 문자열을 vector에 저장
+    }
+ 
+    return result;
+}
 
 // class
 class Date {
@@ -25,20 +44,24 @@ public:
 // 생성자 구현
 Date::Date(int y, int m, int d) : year(y), month(m), day(d) 
 {
-    //
+    // 
 }
 
 // 날짜 문자열로부터 날짜를 초기화하는 생성자 구현
 Date::Date(string dateStr) 
 {
-    vector<string> result = split(dateStr, '/');
-    sscanf(dateStr.c_str(), "%d/%d/%d", &year, &month, &day);
+    vector<string> result = split(dateStr, '/'); //구글 검색해서 넣음...
+    //sscanf(dateStr.c_str(), "%d/%d/%d", &year, &month, &day);
+
+    year = stoi(result[0]);
+    month = stoi(result[1]);
+    day = stoi(result[2]);
 }
 
 // show() 함수 구현
 void Date::show()
 {
-    cout << year << "/" << month << "/" << day << endl;
+    cout << year << "년" << month << "월" << day << "일" << endl;
 }
 
 // getYear(), getMonth(), getDay() 함수 구현
@@ -63,10 +86,13 @@ int main()
     Date independenceDay("1945/8/15");
 
     independenceDay.show();
+
     cout << birth.getYear() << ',' << birth.getMonth() << ',' << birth.getDay() << endl;
 
     return 0;
 }
+
+
 
 /*
 #include <iostream>
